@@ -1,0 +1,39 @@
+#cf-account{
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+#cf-envir{
+    padding-left: 20px; 
+}
+
+.cf-container{
+    margin:10px;
+}
+
+nav{
+    background-color: #F3A08E;
+}
+
+#nav-logo{
+    padding-left: 20px; 
+    padding-right: 30px;
+}
+
+.cf-control-buttons{
+    padding: 20px;
+}
+
+h2{
+    padding-top: 30px; 
+    padding-bottom: 50px; 
+    color: #C2371B  
+}
+
+.ui-dialog-titlebar{
+    background-color: #F3A08E !important;
+}
+
+.cf-contol-database{
+    padding-top: 30px;
+}

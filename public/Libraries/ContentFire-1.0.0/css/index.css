@@ -1,0 +1,13 @@
+.ui-dialog-titlebar-close {
+    background-image: url("../img/close_button.png");
+    height: 10px;
+    width: 10px;
+}
+
+#cf-datatable-box{
+    width:100%
+}
+
+#cf-data-table{
+    padding: 10px;
+}

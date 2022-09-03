@@ -1,0 +1,47 @@
+body{
+    background-color: #42B8D7;
+}
+
+#cf-banner{
+    background-color: white;
+    margin-top: 20px;
+}
+
+#cf-banner-image{
+    margin-left: 100px;
+}
+
+#cf-banner-title{
+    font-family:verdana;
+    font-size:40px;
+    margin-top: 50px;
+}
+
+#cf-banner-mission{
+    color:#C70039 ;
+    font-family:Courier;
+    font-size:25px;
+
+}
+
+#cf-login-form{
+    width: 500px;
+    margin-left: 100px;
+}
+
+#cf-footer{
+    margin-top: 100px;
+}
+
+#cf-footer-text{
+    background-color:white;
+}
+
+.text-gradient {
+    /* Set the background color */
+    background: linear-gradient(to right, #ff8a00 0%, #dd4c4f 100%);
+    /* Mask the color to the text, and remove the rest  */
+    -webkit-background-clip: text;
+    /* Make the text fill color value transparent so the masked background color comes through */
+    -webkit-text-fill-color: transparent;
+  }

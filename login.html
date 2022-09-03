@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Comptile" content="IE=edge" >
+
+        <link rel="shortcut icon" type="image/ico" href="public/Libraries/ContentFire-1.0.0/img/favicon.ico">
+
+        <script type="text/javascript" src="public/Libraries/JQuery-3.5.1/jquery.js"></script>
+
+        <link rel="stylesheet" type="text/css" href="public/Libraries/Bootstrap-5.2.0/bootstrap.css">
+        <script type="text/javascript" language="javascript" src="public/Libraries/Bootstrap-5.2.0/bootstrap.js"></script>
+
+        <link rel="stylesheet" type="text/css" href="public/Libraries/ContentFire-1.0.0/css/login.css">
+
+        <script type="text/javascript" language="javascript" src="public/Libraries/ContentFire-1.0.0/js/environment/setup.js"></script>
+
+
+        <title>Content Fire</title>
+    </head>
+    <body>
+
+        <div>
+            <p id="cf-envir"><b>Environment: </b><i><span id="cf-envir_type"></span></i></p>
+        </div>
+
+        <div id="cf-banner" class="mw-100" >
+
+
+
+            <div class="container">
+                <div class="row">
+                  <div class="col-4">
+
+                        <div id="cf-banner-image">
+                            <img src="public/Libraries/ContentFire-1.0.0/img/ContentFire.png" alt="Content Fire Logo" width="170" height="170">
+                        </div>
+
+                  </div>
+                  <div class="col-8">
+
+                        <p class="text-gradient" id="cf-banner-title"><i><b>Content Fire Organization</b></i> &copy; </p>
+                        <p id="cf-banner-mission"><b>The library of fire of knowledge</b></p>
+
+                  </div>
+                </div>
+              </div>
+
+        </div>
+
+        <container >
+                
+            <form id="cf-login-form" action="/index" method="get">
+                <div class="mb-3 mt-3">
+                <label for="user" class="form-label">User:</label>
+                <input type="user" class="form-control" id="user" placeholder="Enter user" name="user">
+                </div>
+                <div class="mb-3">
+                <label for="pwd" class="form-label">Password:</label>
+                <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd">
+                </div>
+                <div class="form-check mb-3">
+                <label class="form-check-label">
+                    <input class="form-check-input" type="checkbox" name="remember"> Remember me
+                </label>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+            
+        </container>
+
+        <div id="cf-footer">  
+            <footer class="bg-light text-center text-lg-start">
+                <!-- Copyright -->
+                <div class="text-center p-3" id="cf-footer-text" >
+                    © 2022 Copyright:
+                    <i><b><a class="text-dark" href="https://github.com/johncuseyhub">John Cusey Hub</a></b></i>
+                </div>
+                <!-- Copyright -->
+            </footer>
+        </div> 
+            
+    </body>
+</html>
